@@ -1,0 +1,15 @@
+frontend:
+  image:
+    repository: con3rasjf/frontend
+    tag: v3
+  port: 3000
+
+backend:
+  image: 
+    repository: con3rasjf/backend
+    tag: v2
+  port: 8000
+
+ingress:
+  hostFrontend: frontend.local
+  hostBackend: api.local
