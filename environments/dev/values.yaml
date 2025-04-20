@@ -1,13 +1,13 @@
 frontend:
   image:
     repository: con3rasjf/frontend
-    tag: v3
+    tag: v2
   port: 3000
 
 backend:
   image: 
     repository: con3rasjf/backend
-    tag: v2
+    tag: v1
   port: 8000
 
 ingress:
