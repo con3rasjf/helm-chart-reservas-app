@@ -1,7 +1,7 @@
 frontend:
   image:
     repository: con3rasjf/frontend
-    tag: v10
+    tag: v3
   port: 3000
 
 backend:
