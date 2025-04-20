@@ -6,7 +6,7 @@ frontend:
 
 backend:
   image: 
-    repository: con3rasjf/backend
+    repository: con3rasjf/backend-python
     tag: v1
   port: 8000
 
