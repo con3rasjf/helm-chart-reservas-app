@@ -1,13 +1,13 @@
 frontend:
   image:
     repository: con3rasjf/frontend
-    tag: v3
+    tag: v4
   port: 3000
 
 backend:
   image: 
-    repository: con3rasjf/backend
-    tag: v2
+    repository: con3rasjf/backend-python
+    tag: v1
   port: 8000
 
 ingress:
